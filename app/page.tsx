@@ -1,11 +1,11 @@
 import Banner from "@/components/Banner";
-import Dashboard from "@/components/Dashboard";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhyAlbum from "@/components/WhyAlbum";
 export default function Home() {
   return (
     <div className="">
-<Dashboard/>
+<Navbar/>
 <Banner/>
 <WhyAlbum/>
 <Footer/>
